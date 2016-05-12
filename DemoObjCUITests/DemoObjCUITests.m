@@ -338,15 +338,6 @@
     [keyboardDoneButton tap];
 }
 
-
-/////--------------------------
-///// @name UITextView handling
-/////--------------------------
-//
-///**
-// canAdjustTextView  Adjust textView's frame when it is too big in height. Default is NO.
-// shouldFixTextViewClip  Adjust textView's contentInset to fix a bug. for iOS 7.0.x - http://stackoverflow.com/questions/18966675/uitextview-in-ios7-clips-the-last-line-of-text-string Default is YES.
-// */
 //- (void)testTextView {
 //    
 //}
@@ -400,12 +391,12 @@
 /////------------------------------------
 //
 ///**
-// @method disableInViewControllerClass: Disable adjusting view in disabledClass
+// @method disableDistanceHandlingInViewControllerClass: Disable adjusting view in disabledClass
 // @method removeDisableInViewControllerClass: Re-enable adjusting textField in disabledClass
 // @method disableToolbarInViewControllerClass: Disable automatic toolbar creation in in toolbarDisabledClass
 // @method removeDisableToolbarInViewControllerClass: Re-enable automatic toolbar creation in in toolbarDisabledClass
 // @method considerToolbarPreviousNextInViewClass: Consider provided customView class as superView of all inner textField for calculating next/previous button logic.
-// @method disableInViewControllerClass: Remove Consideration for provided customView class as superView of all inner textField for calculating next/previous button logic.
+// @method disableDistanceHandlingInViewControllerClass: Remove Consideration for provided customView class as superView of all inner textField for calculating next/previous button logic.
 // */
 //- (void)testClassLevelEnableDisable {
 //    

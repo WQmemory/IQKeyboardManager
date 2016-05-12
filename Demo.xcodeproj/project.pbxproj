@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C631B161CB24A8E0078E59F /* IQPreviousNextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C631B151CB24A8E0078E59F /* IQPreviousNextView.m */; };
+		4C631B181CB24AAD0078E59F /* IQPreviousNextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C631B171CB24AAD0078E59F /* IQPreviousNextView.swift */; };
 		4C7FCC271C6A507E00537BA0 /* IQUIScrollView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C7FCC261C6A507E00537BA0 /* IQUIScrollView+Additions.m */; };
 		4C7FCC291C6A57FF00537BA0 /* IQUIScrollView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7FCC281C6A57FF00537BA0 /* IQUIScrollView+Additions.swift */; };
 		4CE611A01B98B7250020591A /* DemoObjCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE6119F1B98B7250020591A /* DemoObjCUITests.m */; };
@@ -102,6 +104,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4C631B141CB24A8E0078E59F /* IQPreviousNextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQPreviousNextView.h; sourceTree = "<group>"; };
+		4C631B151CB24A8E0078E59F /* IQPreviousNextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQPreviousNextView.m; sourceTree = "<group>"; };
+		4C631B171CB24AAD0078E59F /* IQPreviousNextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQPreviousNextView.swift; sourceTree = "<group>"; };
 		4C7FCC251C6A507E00537BA0 /* IQUIScrollView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIScrollView+Additions.h"; sourceTree = "<group>"; };
 		4C7FCC261C6A507E00537BA0 /* IQUIScrollView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIScrollView+Additions.m"; sourceTree = "<group>"; };
 		4C7FCC281C6A57FF00537BA0 /* IQUIScrollView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIScrollView+Additions.swift"; sourceTree = "<group>"; };
@@ -332,6 +337,7 @@
 				4CEC3A661B8CECDF00909DCA /* IQTitleBarButtonItem.swift */,
 				4CEC3A671B8CECDF00909DCA /* IQToolbar.swift */,
 				4CEC3A681B8CECDF00909DCA /* IQUIView+IQKeyboardToolbar.swift */,
+				4C631B171CB24AAD0078E59F /* IQPreviousNextView.swift */,
 			);
 			path = IQToolbar;
 			sourceTree = "<group>";
@@ -366,7 +372,7 @@
 		C0B63B901781FAB0008D3B64 = {
 			isa = PBXGroup;
 			children = (
-				C0CB62181B8850AE00C33368 /* IQKeyBoardManager */,
+				C0CB62181B8850AE00C33368 /* IQKeyboardManager */,
 				4CEC3A561B8CECDF00909DCA /* IQKeyboardManagerSwift */,
 				C0CB618E1B884D4100C33368 /* Demo */,
 				4CE6119E1B98B7250020591A /* DemoObjCUITests */,
@@ -605,7 +611,7 @@
 			path = ViewController;
 			sourceTree = "<group>";
 		};
-		C0CB62181B8850AE00C33368 /* IQKeyBoardManager */ = {
+		C0CB62181B8850AE00C33368 /* IQKeyboardManager */ = {
 			isa = PBXGroup;
 			children = (
 				C0CB62191B8850AE00C33368 /* Categories */,
@@ -619,7 +625,7 @@
 				C0CB623A1B8850AE00C33368 /* KeyboardManager.h */,
 				C0CB623B1B8850AE00C33368 /* Resources */,
 			);
-			path = IQKeyBoardManager;
+			path = IQKeyboardManager;
 			sourceTree = "<group>";
 		};
 		C0CB62191B8850AE00C33368 /* Categories */ = {
@@ -670,6 +676,8 @@
 				C0CB62371B8850AE00C33368 /* IQToolbar.m */,
 				C0CB62381B8850AE00C33368 /* IQUIView+IQKeyboardToolbar.h */,
 				C0CB62391B8850AE00C33368 /* IQUIView+IQKeyboardToolbar.m */,
+				4C631B141CB24A8E0078E59F /* IQPreviousNextView.h */,
+				4C631B151CB24A8E0078E59F /* IQPreviousNextView.m */,
 			);
 			path = IQToolbar;
 			sourceTree = "<group>";
@@ -865,6 +873,7 @@
 				4CEC3A6C1B8CECDF00909DCA /* IQUITextFieldView+Additions.swift in Sources */,
 				C0CB61F41B884F2700C33368 /* TableViewInContainerViewController.swift in Sources */,
 				4CEC3A741B8CECDF00909DCA /* IQTextView.swift in Sources */,
+				4C631B181CB24AAD0078E59F /* IQPreviousNextView.swift in Sources */,
 				C0CB61F91B884F2700C33368 /* WebViewController.swift in Sources */,
 				C0CB61F51B884F2700C33368 /* TextFieldViewController.swift in Sources */,
 				C03C87F91B8DCEC400295DFA /* NavigationTableViewCell.swift in Sources */,
@@ -893,6 +902,7 @@
 				C0CB62051B884FA100C33368 /* CollectionViewDemoController.m in Sources */,
 				C0CB61FF1B884FA100C33368 /* OptionTableViewCell.m in Sources */,
 				C0CB620D1B884FA100C33368 /* SettingsViewController.m in Sources */,
+				4C631B161CB24A8E0078E59F /* IQPreviousNextView.m in Sources */,
 				C0CB62461B8850AE00C33368 /* IQBarButtonItem.m in Sources */,
 				C0CB62081B884FA100C33368 /* ExampleTableViewController.m in Sources */,
 				C0CB61FD1B884FA100C33368 /* AppDelegate.m in Sources */,
@@ -976,6 +986,7 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -984,7 +995,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				INFOPLIST_FILE = Demo/Swift_Demo/Resources/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_SWIFT_FLAGS = "";
@@ -992,6 +1003,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Demo/Swift_Demo/Resources/IQKeyboardManger-Swift-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -1006,18 +1018,20 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				INFOPLIST_FILE = Demo/Swift_Demo/Resources/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_SWIFT_FLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iftekhar.IQKeyboardManagerSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Demo/Swift_Demo/Resources/IQKeyboardManger-Swift-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -1102,7 +1116,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Iftekhar Qurashi (RFN29V7Q6Y)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1110,11 +1124,11 @@
 					"DEBUG=1",
 				);
 				INFOPLIST_FILE = Demo/Objective_C_Demo/Resources/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iftekhar.IQKeyboardManager;
 				PRODUCT_NAME = IQKeyboardManager;
-				PROVISIONING_PROFILE = "19764671-765f-4e2b-886b-c864811d6da4";
+				PROVISIONING_PROFILE = "c4409796-4076-42e2-94c9-9c2f96ee53dc";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
@@ -1127,16 +1141,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Iftekhar Qurashi (RFN29V7Q6Y)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "";
 				GCC_PREPROCESSOR_DEFINITIONS = "";
 				INFOPLIST_FILE = Demo/Objective_C_Demo/Resources/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iftekhar.IQKeyboardManager;
 				PRODUCT_NAME = IQKeyboardManager;
-				PROVISIONING_PROFILE = "19764671-765f-4e2b-886b-c864811d6da4";
+				PROVISIONING_PROFILE = "c4409796-4076-42e2-94c9-9c2f96ee53dc";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
